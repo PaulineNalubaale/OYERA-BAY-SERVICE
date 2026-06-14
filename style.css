@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(239, 243, 255);
+}
+
+h1 {
+    color: rgb(4, 27, 117)
+}
+
+#first-h2,
+p {
+    color: rgb(107, 174, 214)
+}
+
+h3 {
+    color: rgb(49, 130, 189)
+}
+
+.style-1 {
+    color: black;
+    background-color: aqua;
+}
+
+#Links-to-classes {
+    color: rgb(147, 9, 97);
+    background-color: blueviolet;
+
+    #Links {
+        height: 300px;
+        margin: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+#Main-Services-Division {
+    background-image: url(./blueskies.jpg);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Service-Bay-Description {
+    background-color: lightblue;
+    color: black;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#Resources-Section {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#Service-Bay-Description {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#Service-Bay-Description section{
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
