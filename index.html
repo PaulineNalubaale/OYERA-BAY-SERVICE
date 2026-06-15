@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OYERA SERVICE BAY DASHBOARD</title>
+    <title>OYERA SERVICE BAY</title>
     <!--<link rel="stylesheet" href="style.css">-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,196 +12,100 @@
 </head>
 
 <body>
-    <form>
-        <label for=""> User Name</label>
-        <input type="text">
-
-        <label>Password</label>
-        <input type="text" placeholder="076320">
-
-        <button type="submit">Submit Request</button>
-    </form>
-
-    <div style="margin-left: 50px; ">
-        <input />
-    </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    <div class="alert alert-warning" role="alert">
-        Account Successfuly created
-    </div>
-    <h1>Example heading <span class="badge text-bg-secondary">100 New emails</span></h1>
-    <h5>Example heading <span class="badge text-bg-secondary">New</span></h5>
-    <h6>Example heading <span class="badge text-bg-secondary">New</span></h6>
-    #end of slide section#
-    #beginning of buttons
-    <button type="button" class="btn btn-outline-primary btn-lg">Base class</button>
-    <button type="button" class="btn btn-primary" btn-lg disabled>Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <div class="d-grid gap-2">
-        <button class="btn btn-primary" type="button">Button</button>
-        <button class="btn btn-primary" type="button">Button</button>
-    </div>
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Order a Mechanic</button>
-        <button class="btn btn-primary" type="button">submit</button>
-    </div>
-    <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!--Adding sliders-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="oyera_service_auto_bay_logo.jpeg" class="d-block w-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p>Oyera Logo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="vehicle_accessories.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Sample Vehicle accessories.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="mechanics1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
         </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    #end of buttons
-    <!--<table class="table table-striped table-striped-columns table-hover">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Names</th>
-                <th scope="col">Vehicle Reg No.</th>
-                <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>John</td>
-                <td>Doe</td>
-                <td>@social</td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="card" style="width: 18rem;">
-        <img height="240" src="leo.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">OUR PARTNERS</h5>
-            <p class="card-text">At Oyera Bay service, we do walk alone.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div> -->
-
-    <button type="button" class="btn btn-link">Link</button>
-    <h1 class="text-primary bg-success py-5 px-5">h1. Bootstrap heading</h1>
-    <h2 class="text-secondary bg-danger p-5">h2. Bootstrap heading</h2>
-    <h3 class="text-danger">h3. Bootstrap heading</h3>
-    <h4 class="text-success">h4. Bootstrap heading</h4>
-    <h5>h5. Bootstrap heading</h5>
-    <h6>h6. Bootstrap heading</h6>
-    <div class="card text-bg-primary">
-        <img src="oil_reservoir.jpeg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-            <h5 class="card-title py-10 px-5">Greasing</h5>
-            <p class="card-text text-secondary">This explains types of grease available.</p>
-            <p class="card-text text-danger"><small>Last updated 3 mins ago</small></p>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <p class="h1">h1. Bootstrap heading</p>
-    <p class="h2">h2. Bootstrap heading</p>
-    <p class="h3">h3. Bootstrap heading</p>
-    <p class="h4">h4. Bootstrap heading</p>
-    <p class="h5">h5. Bootstrap heading</p>
-    <p class="h6">h6. Bootstrap heading</p>
-    <p>You can use the mark tag to <mark>highlight</mark> text.</p>
-    <p><del>This line of text is meant to be treated as deleted text.</del></p>
-    <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
-    <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-    <p><u>This line of text will render as underlined.</u></p>
-    <p><small>This line of text is meant to be treated as fine print.</small></p>
-    <p><strong>This line rendered as bold text.</strong></p>
-    <p><em>This line rendered as italicized text.</em></p>
-    <h1>WELCOME TO OYERA BAY SERVICE DASHBOARD</h1>
+    <h1><u><strong></strong>WELCOME TO OYERA BAY SERVICE</strong></u></h1>
+
     <h3>About Us</h3>
     <p>Oyera Bay Service is an Auto Garage. The only one that takes care of your vehicle like a baby. We offer a wide
         range of services as listed below</p>
+    <p>We handle heavy, small and commercial cars</p>
 
-    <section id="Resources-Section">
-        <p><span>Resources</span>...</p>
-    </section>
-    <div id="Main-Services-Division">
-        <div id="Service-Bay-Description">
-            <section>
-                <p>Customer Service Page</p>
-                <p><span>What kind of Service do you want</span>2 categories Offered</p>
-            </section>
-            <section>
-                <p>Services Provided</p>
-                <p><span>Number of services available</span>10 Services</p>
-            </section>
-            <section>
-                <p>Spare parts available</p>
-                <p><span>Available stock</span>20</p>
-            </section>
-            <section>
-                <p>Customer Feedback page</p>
-                <p><button type="submit">GIVE FEEDBACK</button></p>
-            </section>
-
+    <h3><u>Resources</u></h3>
+    <div class="d-flex mb-3">
+        <div class="p-2">
+            <div class="card" style="width: 18rem;">
+                <img src="mechanics2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="customer_registration page.html">Customer Registration</a>
+                    <p class="card-text">Find more about services offered at the bay</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="card" style="width: 18rem;">
+                <img src="vehicle_accessories.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spare Parts Available</h5>
+                    <p class="card-text">Look at all your desired auto parts</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-2">
+            <div class="card" style="width: 18rem;">
+                <img src="mechanics2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="technician registration.html">Technician Registration</a>
+                    <p class="card-text">Choose your own preferred Technician</p>
+                </div>
+            </div>
         </div>
 
-        <div id="Sample-services-offered">
-            <h3>Sample Services Offered and Estimated Costs</h3>
-            <table>
-                <tr>
-                    <th>S/N</th>
-                    <th>Service Offered</th>
-                    <th>Cost</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Greasing</td>
-                    <td>10k</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Spare part change</td>
-                    <td>20k</td>
-                </tr>
-            </table>
-        </div>
     </div>
+    <h3><u>More useful links</u></h3>
+
+    <nav>
+
+        <a href="Paulines Assignment on Dashboards.html">My Dashboard</a>
+    </nav>
     <ul>
-        <li>Customer Service Page </li>
-        <li>Services Provided</li>
-        <li>Spare parts available</li>
         <li>Customer Feedback page</li>
+        <li>Technician Registration</li>
 
     </ul>
-    <button> BOOK AN APPOINTMENT</button>
-
-
-
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
